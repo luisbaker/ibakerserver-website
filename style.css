@@ -1,0 +1,74 @@
+/* Define a fonte padrão e as cores para modo escuro */
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* Define o estilo do menu para modo escuro */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 10px;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Define o estilo da foto para modo escuro */
+.photo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Define o estilo do título para modo escuro */
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Define o estilo da descrição para modo escuro */
+.description {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Define o estilo do rodapé para modo escuro */
+footer {
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Define o estilo do conteúdo centralizado */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
