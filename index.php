@@ -9,13 +9,13 @@ if (isset($_GET['lang'])) {
 // Inclui o arquivo de idioma correspondente com base no idioma selecionado.
 switch ($lang) {
     case "pt":
-        include "lang.pt.php";
+        include "/lang/lang.pt.php";
         break;
     case "fr":
-        include "lang.fr.php";
+        include "/lang/lang.fr.php";
         break;
     default:
-        include "lang.en.php";
+        include "/lang/lang.en.php";
 }
 
 // Define o título da página com base no arquivo de idioma carregado.
@@ -29,13 +29,13 @@ $page_title = $lang['PAGE_TITLE'];
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo $page_title; ?></title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="background-image">
   <div class="menu">
     <a href="#"><?php echo $lang['MENU_PEERING']; ?></a>
-    <a href="https://www.peeringdb.com/net/XXX">PeeringDB</a>
-    <a href="https://ibakerserver.pt/looking-glass/">Looking Glass</a>
+    <a href="https://www.peeringdb.com/net/33065">PeeringDB</a>
+    <a href="https://ibakerserver.pt/error/404.php">Looking Glass</a>
     <a href="https://ibakerserver.pt"><?php echo $lang['MENU_ASSOCIATION']; ?></a>
   </div>
 
